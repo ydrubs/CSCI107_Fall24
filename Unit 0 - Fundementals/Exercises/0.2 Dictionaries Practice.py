@@ -261,6 +261,15 @@ countries_and_code = {
     'ZIMBABWE': 'ZW',
 }
 
-letters = ['C', 'D', 'M']
+letters = ['E', 'D', 'N']
 
 ###YOUR SOLUTION HERE###
+
+
+
+
+
+
+
+
+
