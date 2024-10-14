@@ -19,28 +19,4 @@ Implement two methods:
     Show that your methods work by creating a class and utilizing them.
 """
 class Point:
-    def __init__(self, x1,x2,y1,y2):
-        self.x1 = x1
-        self.x2 = x2
-        self.y1 = y1
-        self.y2 = y2
-
-
-    def difference(self):
-        new_point = (self.x2-self.x1, self.y2-self.y1)
-        return new_point
-
-
-    def pyth_dist(self):
-        dist = ((self.y2-self.y1) **2) + ((self.x2-self.x1)**2)
-        dist = dist **0.5
-        return dist
-
-x1 = int(input("Enter the value of x1: "))
-y1 = int(input("Enter the value of y1: "))
-x2 = int(input("Enter the value of x2: "))
-y2 = int(input("Enter the value of y2: "))
-
-p1 = Point(x1,x2,y1,y2)
-print(p1.difference())
-print(p1.pyth_dist())
+    pass
